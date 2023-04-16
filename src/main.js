@@ -1,4 +1,8 @@
-function demo(){}
+import {name} from './demo'
 
-console.log("hihi rollup")
-console.log("hihi 2 rollup")
+function demo(){
+    console.log(name)
+    console.log("hihi 2 rollup")
+}
+
+demo()
